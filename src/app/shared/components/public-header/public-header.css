@@ -1,0 +1,13 @@
+header{ float:left; width:100%;}
+
+header.fixed{position:fixed; background:#fff; top:0px; left:0px; z-index:99999; border-bottom:4px solid #00A9E0}
+header.fixed nav{ margin:30px 0 0;}
+header .logo{ float:left; margin: 0px 0px 0px 26px; }
+header .logo img{ float:left; width: 165px;}
+header.fixed .logo{ margin: 0px 0px 0px 26px; }
+header nav{ float:right; margin:10px 0 0;}
+header nav ul{ float:left; list-style:none;}
+header nav ul li{ float:left; margin:0 10px;}
+header nav ul li a{ float:left; font-size:18px; color:#3f3e49; text-decoration:none; line-height:20px; padding:5px 12px; text-transform:uppercase; font-family: 'Conv_Helvetica-Condensed-Bold'; cursor: pointer;}
+header nav ul li.active a, header nav ul li a:hover{ background:#00a9e0; color:#fff !important; border-radius:4px;}
+

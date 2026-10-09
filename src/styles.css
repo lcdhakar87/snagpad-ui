@@ -1,0 +1,405 @@
+/* You can add global styles to this file, and also import other style files */
+#body_container{ float:left; width:100%; overflow:hidden;}
+body {
+    background: #2face2 url(https://snagpad.com/img/body_bg1.jpg) no-repeat 86px -4px;
+    position: relative; }
+.heading_box {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.heading_box .blue_row {
+    float: left;
+    width: 100%;
+    padding: 114px 0 25px;
+    background: url(https://snagpad.com/img/blue_row_bg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+/*===========cms_page css start========*/
+
+.cms_page_detail {
+    float: left; 
+    background: #fff; 
+    position: relative;
+    min-height: 410px;
+    width: 100%;
+    padding: 20px 3%;
+} 
+
+.cms_page_detail.none {
+    padding: 15px 0px;
+    width: 960px
+}
+
+.cms_page_detail.full {
+    padding: 20px 0;
+    width: 1025px;
+}
+
+.cms_page_detail p {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'onduititc';
+    font-weight: normal;
+    padding: 0 0 10px 0;
+    color: #565656;
+}
+
+.cms_page_detail p strong {
+    font-weight: bold
+}
+
+.cms_page_detail p img {
+    margin: 0 15px 15px 0;
+    float: left;
+    vertical-align: text-top
+}
+
+.cms_page_detail p a {
+    color: #565656;
+    /*text-decoration:none;*/
+}
+
+.cms_page_detail p a:hover {
+    color: #F07700
+}
+
+.cms_page_detail p strong {
+    color: #21527f;
+}
+
+.cms_page_detail h2 {
+    display: inline-block;
+    width: 79%;
+    font-size: 24px;
+    line-height: 26px;
+    color: #f07700;
+    font-family: 'onduititc';
+    font-weight: bold;
+    padding: 0 0 20px 0
+}
+
+.cms_page_detail h3 {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 22px;
+    color: #173754;
+    font-family: 'onduititc';
+    font-weight: bold;
+    padding: 0 0 20px 0
+}
+
+.cms_page_detail h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 22px;
+    color: #173754;
+    font-family: 'onduititc';
+    font-weight: bold;
+    padding: 0 0 20px 0
+}
+
+.cms_page_detail h3.sub {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #f07700;
+    font-family: 'onduititc';
+    font-weight: bold;
+    padding: 0 0 0px 0
+}
+
+.cms_page_detail h4 {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 22px;
+    color: #173754;
+    font-family: 'onduititc';
+    font-weight: normal;
+    padding: 0 0 20px 0
+}
+
+.cms_page_detail ul {
+    float: left;
+    width: 890px;
+    list-style: none;
+    padding: 0 0 20px 30px
+}
+
+.cms_page_detail ul li {
+    float: left;
+    width: 865px;
+    background: url(https://snagpad.com/img/bulet.jpg) no-repeat left 7px;
+    padding: 0 0 0 25px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #173754;
+    font-family: 'onduititc';
+    font-weight: normal
+}
+
+.cms_page_detail ul li.none {
+    background: none !important
+}
+
+.cms_page_detail ul li h3 {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0 0 10px 0 !important
+}
+
+.cms_page_detail ul li h4 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 0 10px 0 !important
+}
+
+.cms_page_detail ul.none {
+    padding: 0 0 20px 0 !important;
+    list-style: none !important
+}
+
+.cms_page_detail ul.none li {
+    padding: 0px !important;
+    background: none !important
+}
+
+.cms_page_detail .image_box {
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+.cms_page_detail .image_box img {
+    float: none
+}
+
+.cms_page_detail .agency {
+    padding: 20px;
+    float: left;
+}
+
+.cms_page_detail .agency h3 {
+    padding-bottom: 30px;
+}
+
+.cms_page_detail .agency h4 {
+    font-weight: bold;
+}
+
+.cms_page_detail .agency ul {
+    width: auto;
+    padding: 0;
+}
+
+.cms_page_detail .agency ul li {
+    width: 100%;
+}
+
+.cms_page_detail .agency .button {
+    padding: 20px 0;
+    float: left;
+    width: 49%;
+    text-align: center;
+}
+
+.cms_page_detail .agency .button.full {
+    width: 100%
+}
+
+.cms_page_detail .agency .button.border {
+    border: 1px solid #cccccc;
+}
+
+.cms_page_detail .agency .button input {
+    float: none !important;
+}
+
+/*===========cms_page css end========*/
+
+
+
+/*=================contact css start here===================*/
+.heading_box p{ font-size:20px; color:#9a9a9a; font-family: 'rockwellregular'; line-height:24px; padding:9px 0 0;}
+.form_container{ float:left; width:100%; padding:11px 0 58px;}
+.form_container h4{color: #4F534D;  display:block; font-family: 'rockwellregular';  font-size: 33px;  line-height: 33px;   padding:30px 0; text-align:center}
+
+.left_container.full{border:none; width:100%}
+.left_container{ float:left; width:59%; border-right:1px solid #DDDDDD;}
+.left_container ul{ float:left; width:100%;}
+.left_container ul li{ float:left; width:100%; margin:0 0 21px; background:#ededed; color:#999}
+
+.left_container ul li .check{ display: inline-block;    margin: 11px 10px;font-family:'the_sans_light-regular';font-size:16px}
+.left_container ul li .checkbox{ float:left;    margin: 18px 5%;font-family:'the_sans_light-regular'; font-size:16px;}
+
+.left_container ul{ float:left; width:100%; list-style:none;}
+.left_container ul li{ float:left; width:44%; border:1px solid #ededed; border-radius:3px; background:#ededed; margin:0 5% 21px 0; position:relative}
+.left_container.full ul li{width:48.5%; margin:0 1% 21px 0;}
+.left_container.full ul li.last{width:98%}
+.left_container ul li.last{width:95%}
+.left_container ul li.last input{float:right}
+.left_container ul li.area{ margin:0 0 21px; width:93%;}
+.left_container.full ul li.area{width:97%}
+.left_container ul li.area small{ width:6%;}
+.left_container ul li small{ width:12%; height:52px; float:left; text-align:center;}
+.left_container ul li small img{ display:inline-block;}
+.left_container ul li span{ float:right; padding:6px 2%; width:84%; background:#f3f3f3; height:40px;}
+.left_container ul li strong{ float:right; padding:6px 2%; width:90%; background:#f3f3f3; height:140px;position: relative;}
+.left_container ul li span input[type="text"]{ float:left; width:100%; height:40px; background:none; font-size:16px; font-family: 'the_sans_light-regular'; color:#767676; border:none; line-height:40px; }
+.left_container ul li strong textarea{ float:left; resize:none; width:100%; height:140px; background:none; font-size:16px; font-family: 'the_sans_light-regular'; color:#767676; border:none; line-height:24px; }
+.left_container ul li input[type="submit"]{ font-size:17px; color:#fff; font-family: 'rockwellregular'; text-transform:uppercase; background:#00a9e0 url(https://snagpad.com/img/arrow1.png) no-repeat; background-position:90% center; border:none; text-decoration:none; line-height:20px; padding:10px 35px 10px 15px; transition:.3s; border-radius:3px; margin:0 10px 0 0; font-weight:bold; cursor:pointer;}
+.left_container ul li.last{ background:none; border:none;}
+.left_container ul li input[type="submit"]:hover{  background:#0082B9 url(https://snagpad.com/img/arrow1.png) no-repeat; background-position:90% center;}
+
+#contact_usForm div.error{color:#F00;font-family:'onduititc'; font-weight:normal; font-size:16px;   line-height:18px; width:100%; text-align:left; position:absolute; left:0px; bottom:-19px}
+
+.right_container{ float:right; width:37%; padding:0 0 0 3%; }
+.map_box{ float:left; background:#f4f3ec; padding:8px 1%; width:98%;height:500px;}
+.map_box img{ float:left; width:100%;}
+.right_container h4{ font-size:20px; color:#4f534d; font-family: 'rockwellregular'; line-height:24px; text-align:left; padding:0px}
+.right_container ul{ float:left; width:100%; list-style:none; padding:28px 0;}
+.right_container ul li{ float:left; padding:10px 0; float:left; width:100%; border-bottom:1px solid #F58D20;}
+.right_container ul li.last{ border:none;}
+.right_container ul li img{ float:left; margin:0 15px 0 0;}
+.right_container ul li p{ font-size:20px; color:#9a9a9a; font-family: 'rockwellregular'; line-height:23px; display:inline-block;}
+.right_container ul li a{ font-size:20px; color:#9a9a9a; font-family: 'rockwellregular'; line-height:23px; text-decoration:none; display:block;}
+.right_container ul li a:hover{ text-decoration:underline;}
+/*=================contact css end here===================*/
+
+.custom-login-modal .mat-mdc-dialog-container .mdc-dialog__surface {
+  width: 700px !important;    /* 👈 Width jitni badhani ho set karein */
+  max-width: 90vw !important; /* Mobile friendly banane ke liye */
+  border-radius: 16px;        /* Optional: Rounded corners */
+}
+
+ .mat-mdc-dialog-container{border: 4px solid #545485;}
+
+/***********************  header *****************************/
+
+
+header .header_details{float:left; width:100%; z-index:99; position:relative; margin:37px 0 0 0; min-height:98px}
+header .inner_logo{float:left; width:auto; margin:28px 0 0 37px;}
+header .top_section{float:left; width:960px; height:37px; z-index:99999999; position:fixed; top:0px; left:196px;}
+header .top_section ul.left_link{float:left;list-style:none; padding-top:9px; }
+header .top_section ul.left_link li{float:left; width:auto; font-size:19px; line-height:20px; padding:0 40px 0 0px;text-transform:uppercase; position:relative}
+header .top_section.admin ul.left_link li{padding-right:12px;font-size:18px; }
+header .top_section.coach ul.left_link li{padding-right:30px;}
+header .top_section ul.left_link li:hover .drop_down{display:block}
+header .top_section ul.left_link li a{text-decoration:none; color:#212e39; font-family:'onduititc'; font-weight:bold}
+header .top_section ul.left_link li a:hover{color:#ff9600}
+header .top_section ul.left_link li.active a{color:#ff9600}
+header .top_section .calender{float:left; width:22px; height:21px; font-size:12px; line-height:12px; margin-top:9px; position:relative; font-family:'onduititc'; font-weight:bold}
+header .top_section .calender .date{float:left; z-index:9999; position:relative}
+header .top_section .calender .date a{text-decoration:none; float:left; width:22px; height:15px; text-decoration:none; background:url(https://snagpad.com/img/calender_icon.png) no-repeat 0 0; color:#96a4b0; text-align:center; padding-top:6px;}
+header .top_section .calender .calender_box{float:left; background:url(https://snagpad.com/img/calender_bg.png) no-repeat 0 0; width:220px; height:244px; position:absolute; top:-10px; right:-75px; z-index:1; padding:50px 8px 0 4px;  display:none}
+header .top_section .calender .month_row{float:left; width:209px; padding-left:23px}
+header .top_section .calender .month_row .left_arrow{float:left; background:url(https://snagpad.com/img/date_left_arrow.png) no-repeat 0 0; width:7px; height:14px; margin-top:4px}
+header .top_section .calender .month_row .right_arrow{float:left; background:url(https://snagpad.com/img/date_right_arrow.png) no-repeat 0 0; width:7px; height:14px;margin-top:4px}
+header .top_section .calender .month_row .month{float:left; width:165px; text-align:center; color:#212e39; font-size:18px; line-height:17px; font-family:'onduititc'; font-weight:bold}
+header .top_section .calender .day_row{float:left; width:100%; list-style:none; padding-top:10px}
+header .top_section .calender .day_row li{float:left; width:30px; text-align:center; font-size:15px; line-height:15px; text-transform:uppercase; color:#b4b4b4;font-family:'onduititc'; font-weight:bold}
+header .top_section .calender .day_row li.last{width:35px}
+header .top_section .calender .date_row{float:left; width:100%; margin-top:5px}
+header .top_section .calender .date_row ul{float:left; width:100%; list-style:none; font-family:'onduititc'; font-weight:bold}
+header .top_section .calender .date_row ul li{float:left; width:30px; margin:0px 0px 0px 0; font-size:15px; line-height:15px; color:#8a97a3; border:solid 1px #dedfdf; border-left:0px; border-bottom:0px}
+header .top_section .calender .date_row ul li a{text-transform:none; color:#8a97a3; width:30px; height:21px; text-align:center; float:left; padding:9px 0 0 0}
+header .top_section .calender .date_row ul li.leave{border-right:0px; width:33px}
+header .top_section .calender .date_row ul li.orange a{ color:#ec6200}
+header .top_section .calender .date_row ul li.leave a{ color:#173754; width:33px}
+header .top_section .calender .date_row ul li a:hover{background:#d4e9ee}
+header .top_section .calender .date_row ul li.active a{background:#d4e9ee}
+header .top_section .right_link{float:right; width:auto; text-align:right; list-style:none; padding-top:9px}
+header .top_section .right_link li{float:left; width: auto; height:30px; font-size:17px; line-height:20px; margin:0 25px 0 10px; display:inline; position:relative}
+header .top_section .right_link li:hover .drop_down{display:block} 
+header .top_section .right_link li a{text-decoration:none; color:#677f95; font-family:'onduititc'; font-weight:bold;}
+header .top_section .right_link li a span{float:left;}
+header .top_section .right_link li a small{float:left; width:17px; height:15px; background:#f07700; font-size:13px; line-height:13px; text-align:center; border: solid 1px #f4973c; color:#fff; margin:2px 0 0 6px;}
+header .top_section .right_link li a:hover{color:#ff9600;}
+header .top_section .right_link li.active a{color:#ff9600;}
+header .top_section .right_link li.submenu{margin:0; text-align:center; min-height: 28px; min-width:135px; max-width:260px; height:auto; background:#FFF;}
+header .top_section .badges{float:left; width:auto; font-size:19px; line-height:20px; padding:9px 0px 0 40px;text-transform:uppercase; position:relative}
+header .top_section .badges a{text-decoration:none; color:#212e39;}
+header .top_section .badges a:hover{color:#ff9600}
+header .top_section .badges a.active{color:#ff9600}
+/************************ End Header ************************/
+
+ .mat-mdc-menu-content {background-color: #fff;}
+
+ #inner_body_container {
+    float: left;
+    width: 1100px;
+    background: #fff;
+    border: solid 1px #c0c6c9;
+    min-height: 870px;
+    margin-top: 55px;
+    margin-left: 12%;
+}
+
+.tabing_container{width:100%; float:left}
+.tabing_container .tabing{width:100%; float:left; margin-top:-47px}
+.tabing_container .tabing ul{width:auto; float:right; padding-right:20px; list-style:none}
+.tabing_container .tabing ul li{float:left; font-size:16px; line-height:20px; padding-right:14px;text-align:center; font-family:'onduititc'; font-weight:bold; padding-top:2px!important;}
+.tabing_container .tabing ul li.last{padding:0}
+.tabing_container .tabing ul li a{text-decoration:none; color:#21527f; min-width:180px; background:#fff; padding:12px 10px; float:left; border:1px solid #efefef;border-bottom:2px solid #efefef; text-transform:uppercase;}
+.tabing_container .tabing ul li a span{float:left; width:100%; background:url(https://snagpad.com/img/drop_action_arr.jpg) no-repeat 22px 8px; background:url(https://snagpad.com/img/drop_action_arr.jpg) no-repeat 17px 8px;}
+.tabing_container .tabing ul li a:hover,.tabing ul li.active a{color:#ff9600; border-bottom:2px solid #efefef;}
+.tabing_container .tabing ul li a:hover span,.tabing ul li.active a span{ background:url(https://snagpad.com/img/drop_action_arr.jpg) no-repeat 22px -6px; background:url(https://snagpad.com/img/drop_action_arr.jpg) no-repeat 17px -6px;}
+.tabing_container .top_sec {
+    width: 100%;
+    float: left;
+    background: #fff url(https://snagpad.com/img/top_sec_bg.jpg) repeat-x bottom left;
+    padding: 36px 48px 30px 65px;
+    position: relative;
+}
+.contact_section {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.admin_area input {
+    float: left;
+    width: 310px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    min-height: 27px;
+    position: relative;
+    z-index: 99; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 15px 0 0;
+    color: #666;
+}
+.admin_area .search {
+    float: none;
+    margin: 4px 0px 0 0;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 10px 7px 10px;
+    background: #215483 url(https://snagpad.com/img/common_btn_bg.jpg) repeat-x 0 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; 
+    -moz-box-shadow: 0px 2px 0px #acc4d0;
+    -webkit-box-shadow: 0px 2px 0px #acc4d0;
+    box-shadow: 0px 2px 0px #acc4d0;
+    position: relative;
+    z-index: 99;
+    border-top: 1px solid #1377a0;
+    border-right: 1px solid #589fbc;
+    border-left: 1px solid #589fbc;
+    font-family: 'onduititc';
+    font-weight: bold;
+}

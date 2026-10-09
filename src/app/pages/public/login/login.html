@@ -1,0 +1,81 @@
+<div class="p-6 max-w-sm w-full">
+  
+  <!-- Popup Header -->
+  <h2 mat-dialog-title class="text-2xl font-bold text-gray-800 mb-2">
+    Sign In
+  </h2>
+
+  <!-- Popup Body (Form) -->
+  <mat-dialog-content>
+    <form [formGroup]="loginForm" id="loginForm"  class="flex flex-col gap-4 mt-2">
+      <div if="loginForm.invalid">
+          {{errorMsg}}
+      </div>
+      <!-- Email Field -->
+      <div>
+        
+        <input 
+          type="email"  formControlName="email"  placeholder="name@example.com"
+          class="w-full px-3 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-indigo-500 border-gray-300"
+        />
+        <div *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid" class="text-red-500 text-xs mt-1">
+          Valid email required.
+        </div>
+      </div>
+
+      <!-- Password Field -->
+      <div>
+       
+        <input 
+          type="password"  formControlName="password"  placeholder="••••••••"
+          class="w-full px-3 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-indigo-500 border-gray-300"
+        />
+        <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid" class="text-red-500 text-xs mt-1">
+          Password must be at least 6 characters.
+        </div>
+      </div>
+
+       <!-- Password Field -->
+      <div>
+
+       <select 
+          formControlName="role"
+          class="w-full px-3 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-indigo-500 bg-white border-gray-300"
+          [ngClass]="{'border-red-500 focus:ring-red-500': loginForm.get('role')?.touched && loginForm.get('role')?.invalid}"
+        >
+          <option value="" disabled selected>-- Choose Role --</option>         
+            <option value="AGENCY">Agency</option>
+            <option value="COACH">Coach</option>
+            <option value="CLIENT">Job Seeker</option>
+            <option value="SUPERUSER">Super-User</option>
+            <option value="ADMIN">Admin</option>
+        </select>
+         <div *ngIf="loginForm.get('role')?.touched && loginForm.get('role')?.invalid" class="text-red-500 text-xs mt-1">
+          Please select a role.
+        </div>
+        
+      </div>
+
+    </form>
+  </mat-dialog-content>
+
+  <!-- Popup Footer (Action Buttons) -->
+  <mat-dialog-actions align="end" class="mt-6 flex justify-end gap-2">
+    <a class="forgot-pass">FORGOT PASSWORD</a>
+  <button 
+    type="button" 
+    (click)="onCancel()" 
+    class="px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg text-sm font-medium">
+    Cancel
+  </button>
+  
+  <!-- Blue Sign In Button -->
+  <button 
+    type="button"  
+    (click)="onSubmit()"   
+    class="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 disabled:opacity-50 transition-colors submit-btn">
+    Sign In
+  </button>
+</mat-dialog-actions>
+
+</div>

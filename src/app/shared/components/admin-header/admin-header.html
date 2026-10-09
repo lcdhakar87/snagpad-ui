@@ -1,0 +1,48 @@
+  
+  <header id="header" class="fixed" >
+    <h1><a routerLink="/home" class="logo"><img src="https://snagpad.com/img/mploy-logo.png" alt="logo" border="0"></a></h1>
+    <nav> 
+        <ul>
+          <li><a (click)="navigateTo('/admin/dashboard');" mat-button>Dashboard</a></li>
+          <li (mouseenter)="openMenu()" >  
+            <a mat-button [matMenuTriggerFor]="accountsMenu" >Acounts</a>
+            <mat-menu #accountsMenu="matMenu" (mouseleave)="closeMenu()">
+              <a  routerLink="/superuser" mat-menu-item>Super User</a>
+              <button mat-menu-item (click)="navigateTo('/admin/agency');">Agency </button>
+              <a  routerLink="/superuser" mat-menu-item>Coach</a>
+              <a  routerLink="/superuser" mat-menu-item>Clients</a>
+            </mat-menu> 
+          </li>
+                      
+            <!-- <li><a routerLink="/superuser" >Super User</a></li>
+            <li><a routerLink="/agency" >Agency</a></li>
+            <li><a >Coach</a></li>
+            <li><a >Clients</a></li> -->
+            <li><a mat-button>Consultant</a></li>
+            <li><a mat-button>CMS</a></li>
+            <li><a mat-button>Mails</a></li>
+            <li><a mat-button>Cards</a></li>
+            <li><a mat-button>Broadcast</a></li>
+            <li><a mat-button>Subscription</a></li>
+            <li>
+              <a mat-button  [matMenuTriggerFor]="snagscanMenu">SnagScan</a>
+              <mat-menu #snagscanMenu="matMenu">
+                <a  routerLink="/" mat-menu-item>SnagScan keywords</a>
+                <a  routerLink="/" mat-menu-item>SnagScan  Phrases</a> 
+              </mat-menu> 
+            </li> 
+            <li>
+              <a mat-button  [matMenuTriggerFor]="adminMenu">Admin</a>
+              <mat-menu #adminMenu="matMenu">
+                <a  routerLink="/" mat-menu-item>Report</a>
+                <a  routerLink="/" mat-menu-item>Setting</a> 
+                <a  (click) = "logOut()" mat-menu-item>Sign Out</a> 
+              </mat-menu> 
+            </li> 
+            
+            <!-- <li><a mat-button (click)="openDashboard()"  >Dashboard</a></li> --> 
+
+        </ul> 
+    </nav>
+</header>
+  

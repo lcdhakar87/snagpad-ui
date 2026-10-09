@@ -1,0 +1,28 @@
+#body_container{ float:left; width:100%; overflow:hidden;}
+footer{ float:left; width:100%; background:#089dcd; padding:22px 42px;}
+footer .about_box{ float:left; width:60%;}
+footer .about_box h4{ font-size:14px; color:#fff; line-height:18px; padding:0 0 12px; font-family: 'helvetica-bold';}
+footer .about_box p{ font-size:14px; color:#fff; font-family: 'Conv_Helvetica-Condensed'; line-height:18px;}
+footer .menu{ float:left; list-style:none; width:100%;}
+footer .menu li{ float:left; width:100%;}
+footer .menu li a{ text-decoration:none; float:left; line-height:17px; color:#fff; font-size:14px; font-family: 'Conv_Helvetica-Condensed';}
+footer .menu li a:hover{ text-decoration:underline;}
+
+footer .menu_content{ float:left; width:10%; margin:0 4%;}
+footer .menu_content h4{ font-size:14px; color:#fff; text-transform:uppercase; line-height:18px; padding:0 0 12px; font-family: 'helvetica-bold';}
+
+footer .right_footer{ float:right; width:20%; text-align:right}
+footer .right_footer .social{ float:left; width:100%;}
+footer .right_footer .social li{ display:inline-block; margin:0 1%;}
+footer .right_footer .social li a{ width:30px; height:34px; float:left;}
+footer .right_footer .social li .face{ background:url(https://snagpad.com/img/face.png) no-repeat 0 0;}
+footer .right_footer .social li .tweet{ background:url(https://snagpad.com/img/tweet.png) no-repeat 0 0;}
+footer .right_footer .social li .in{ background:url(https://snagpad.com/img/in.png) no-repeat 0 0;}
+footer .right_footer .social li .you{ background:url(https://snagpad.com/img/you.png) no-repeat 0 0;}
+footer .right_footer .link{ float:left; width:100%; margin:10px 0 0;}
+footer .right_footer .link li{ display:inline-block; padding:0 1%; border-left:1px solid #fff;}
+footer .right_footer .link li.first{ border:none;}
+footer .right_footer .link li a{ float:left; font-size:13px; font-family: 'Conv_Helvetica-Condensed';  line-height:17px; color:#fff; text-decoration:none;}
+footer .right_footer .link li a:hover{ text-decoration:underline;}
+footer .right_footer p{ font-size:13px; display:inline-block; margin:-3px 0 0; font-family: 'helvetica_lightregular'; line-height:17px; color:#fff;}
+footer .row{ display:none;}

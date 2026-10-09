@@ -1,0 +1,96 @@
+/*=================job seeker css start here===================*/
+.wrapper {
+    max-width: 94%;
+    margin: 0 3%;
+}
+.top_sec.job{ background-image:url(https://snagpad.com/img/job_seeker_bg.png);}
+.top_sec.job .title_box{ margin:88px 0 0;}
+.title_box h3{ font-size:65px; line-height:62px; color:#fff; font-family: 'rockwellregular';}
+.top_sec.job .title_box p{ font-size:39px; line-height:40px; padding:8px 0 0;}
+.top_sec.job .title_box a{ background:#00a9e0; font-size:25px; font-weight:bold; font-family: 'rockwellregular'; text-decoration:none; color:#fff; text-transform:uppercase; transition:.3s; line-height:27px; padding:10px 50px; border-radius:5px; display:inline-block; margin:17px 0 0;}
+.top_sec.job .title_box a span{ background:url(https://snagpad.com/img/arrow6.png) no-repeat right center; padding:0 40px 0 0;}
+.top_sec.job .title_box a:hover{ background:#4BCAF5}
+
+.top_sec .learn_tab{ padding:12px 0; text-align:center; position:absolute; bottom:0px; left:0px; width:100%; cursor:pointer}
+.top_sec .learn_tab:hover{background:rgba(0,0,0,.7);}
+.top_sec.job .learn{ font-size:19px; color:#fff; text-decoration:none; font-family: 'rockwellregular'; background:url(https://snagpad.com/img/arrow1.png) no-repeat right center; line-height:23px; padding:0 25px 0 0; display:inline-block;}
+.visibility_box {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 33px 0 0px;
+}
+.visibility_box.features{ padding:61px 0 24px;}
+.visibility_box.features ul li{ width:22%;}
+.visibility_box.features .tool{ display:inline-block; margin:0px 0;position:relative; z-index:9}
+
+.get_sec{ float:left; width:100%; background:url(https://snagpad.com/img/get_bg.png) no-repeat 0 0; background-size:100% 100%; padding:50px 0 38px; text-align:center;}
+.get_sec .content{ float:left; width:100%; padding:0 0 42px;}
+.get_sec .content .info{ display:inline-block; width:30%;}
+.get_sec .content .info.right{ text-align:right;}
+.get_sec .content .info.left{ text-align:left;}
+.get_sec .content .info h5{ font-size:40px; line-height:47px; color:#fff; font-family: 'rockwellregular';}
+.get_sec .content .info p{ font-size:25px; color:#fff; padding:0; line-height:30px; font-family: 'rockwellregular';}
+.get_sec .content img{ display:inline-block; vertical-align:top; margin:0 5%;}
+.get_sec a{ font-size:20px; color:#fff; display:inline-block; line-height:24px; padding:11px 13px; background:#f47b20; border-radius:5px; display:inline-block; text-decoration:none; transition:.5s; font-family: 'rockwellregular'; text-transform:uppercase;}
+.get_sec a:hover{ background:#0D9DC1;}
+.get_sec p{ font-size:20px; line-height:24px; color:#fff; font-family: 'rockwellregular'; padding:22px 0 0;}
+
+.social_section{ float:left; width:100%; text-align:center; padding:87px 0 0;}
+.social_section h3{ font-size:33px; color:#4f534d; line-height:33px; font-family: 'rockwellregular';}
+.social_section .link{ float:left; width:100%; margin:23px 0 0; list-style:none; border-top:1px solid #616161}
+.social_section .link li{ display:inline-block; margin:0 1%; vertical-align:top;}
+.social_section .link li.active a{ margin:-1px 0 0;}
+.social_section .link li a{ width:73px; height:52px; border-radius:0 0 5px 5px; float:left; border-bottom:1px solid #eee; border-right:1px solid #eee;}
+.social_section .link li .tweet{ background:url(https://snagpad.com/img/tweet1.png) no-repeat 0 0 #eee;}
+.social_section .link li.active .tweet, .social_section .link li .tweet:hover{  background:url(https://snagpad.com/img/tweet1.png) no-repeat bottom center #fff; border-color:#616161;}
+.social_section .link li .face{ background:url(https://snagpad.com/img/face1%27.png) 0 0 #eee;}
+.social_section .link li.active .face, .social_section .link li .face:hover{ background:url(https://snagpad.com/img/face1%27.png) bottom center #fff; border-color:#616161;}
+
+.social_section .slider{ float:left; width:100%; list-style:none; padding:25px 0 40px;}
+.social_section .slider li{ float:left; width:100% !important; top:15px !important}
+.social_section .slider li a{ font-size:20px; color:#4f534d; line-height:24px; font-family: 'rockwellregular'; text-decoration:none;}
+.social_section .slider li p{ font-size:26px; color:#00c6ff; line-height:28px; font-family: 'rockwellregular';}
+.social_section .paging{ float:left; width:100%; margin:35px 0 0 0}
+.social_section .paging li{ display:inline-block; margin:0 5px; vertical-align:top;}
+.social_section .paging li a{ float:left; width:50px; height:5px; background:#d4d4d4;}
+.social_section .paging li.activeSlide a, .social_section .paging li a:hover{ background:#00c6ff;}
+
+.social_section .social_box{ float:left; width:100%; padding:35px 0 80px;}
+.social_section .social_box li{ display:inline-block; text-align:left; background:url(https://snagpad.com/img/sep3.png) no-repeat right center; vertical-align:top; padding:0 2%; width:20%;}
+.social_section .social_box li.last{ background:none;}
+.social_section .social_box li img{ float:left; margin:0 10px 0 0;}
+.social_section .social_box li h5{ color:#4f534d; font-size:25px; text-transform:uppercase; line-height:27px; font-family: 'rockwellregular';}
+.social_section .social_box li p{ font-size:17px; line-height:22px; color:#575757; font-family: 'Conv_Helvetica-Condensed';}
+
+.user_box{ float:left; width:100%; background:#eeeeee; padding:18px 0;}
+.user_box ul{ float:left; width:100%;}
+.user_box ul li{ display:inline-block; vertical-align:top; border-right:1px solid #616161; padding:0 2%;}
+.user_box ul li.last{ border:none;}
+.user_box ul li .sign_up{ font-size:20px; line-height:20px; background:url(https://snagpad.com/img/sign.png) no-repeat left center; text-decoration:none; text-transform:uppercase; padding:20px 0 20px 90px; color:#4f534d; font-family: 'rockwellregular'; float:left;}
+.user_box ul li .learn{ font-size:17px; color:#575757; margin:18px 0; line-height:22px; font-family: 'Conv_Helvetica-Condensed'; float:left; text-decoration:none;}
+.user_box ul li a:hover{ text-decoration:underline;}
+
+.help_box{ float:left; width:100%; text-align:center; color:#4f534d; padding:61px 0 0;}
+.help_box h3{ font-size:33px; line-height:33px; font-family: 'rockwellregular'; padding:0 0 38px;}
+.help_box .help_detail{ float:left; position:relative; width:100%; padding:34px 0; background:#efefef;}
+.help_box .help_detail .arrow{ position:absolute; top:-14px; left:48%;}
+.help_box .help_detail ul{ float:left; width:100%; list-style:none;}
+.help_box .help_detail ul li{ display:inline-block; text-align:left; vertical-align:top; padding:0 1%; width:22%;}
+.help_box .help_detail ul li img{ float:left; margin:0 10px 5px 0;}
+.help_box .help_detail ul li h5{ font-size:26px; color:#353534; font-family: 'rockwellregular'; line-height:28px;}
+.help_box .help_detail ul li p{ font-size:15px; color:#4e4e4e; font-family: 'Conv_Helvetica-Condensed'; line-height:21px; padding:5px 0 0;}
+
+.want_container{ float:left; width:100%; text-align:center; padding:56px 0 0;}
+.want_container h3{ font-size:33px; line-height:33px; color:#4f534d; font-family: 'rockwellregular'; padding:0 0 38px;}
+.want_box{ float:left; width:100%; position:relative; background:url(https://snagpad.com/img/want_box_bg2.png) no-repeat 0 0; background-size:100% auto; padding:90px 0 70px;}
+.want_box ul{ float:left; text-align:left; list-style:none;}
+.want_box ul.left{ width:40%}
+.want_box ul.right{ float:right; width:40%}
+.want_box ul li.right{ text-align:right;}
+.want_box ul li{ float:left; font-size:45px; width:100%; padding:0 0 50px; line-height:39px; color:#fff; font-family: 'rockwellregular';}
+.want_box ul li.last{ padding:0;}
+.want_box ul li span{ font-size:75px; line-height:65px;}
+.want_box ul li small{ font-size:22px; line-height:27px; display:inline-block; vertical-align:middle;}
+.want_box .person{ position:absolute; left:0; top:60px; text-align:center; width:100%;}
+/*=================job seeker css end here===================*/

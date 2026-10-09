@@ -1,0 +1,7 @@
+ #loginForm{ text-align: center;}
+ #loginForm div{ padding: 4px;} 
+ #loginForm div input, #loginForm div select{ width: 260px;}
+
+ .p-6.max-w-sm.w-full h2{ background-color: #f1f1f1; text-align: center; font-size: 28px;}
+ .submit-btn{ background-color: blue; border-radius: 4px; cursor: pointer;}
+ .forgot-pass{ margin: 0px 146px 0px 0px; text-decoration: none; }

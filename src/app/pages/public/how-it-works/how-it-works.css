@@ -1,0 +1,26 @@
+/*=================how it work css start here===================*/
+.works_container{ float:left; width:100%;}
+.works_container ul{ float:left; width:100%; list-style:none;}
+.works_container ul li{ float:left; width:100%; padding:50px 0;}
+.works_container ul li .img_box{ float:left; width:50%;}
+.works_container ul li .img_box.right{ text-align:right;}
+.works_container ul li .detail_box{ float:left; width:50%;}
+.works_container ul li .detail_box h4{ font-size:30px; color:#ff7e00; font-family: 'rockwellregular'; line-height:31px; padding:10px 15px; border:3px solid #ff7e00; display:inline-block; border-radius:5px;}
+.works_container ul li .detail_box p{ font-size:17px; color:#4f4f4f; font-family: 'HelveticaRegular'; line-height:25px; padding:10px 0 0;}
+.works_container ul li ul{ padding:22px 0 0;}
+.works_container ul li ul li{ padding:5px 0 5px 30px; background:url(https://snagpad.com/img/plus.png) no-repeat left 5px; font-size:17px; line-height:20px; color:#4f4f4f; font-family: 'HelveticaRegular';}
+
+.works_step{ float:left; width:100%; text-align:center; background:url(https://snagpad.com/img/work_step_bg.png) repeat-x 0 0; padding:49px 0 22px;}
+.works_step ul{ float:left; width:100%;}
+.works_step ul li{ display:inline-block; width:30%; padding:0 1%; vertical-align:top; margin:0 -2px; background:#fff;}
+.works_step ul li b{ display:inline-block; vertical-align:top; width:134px; height:120px; background:#e7e7e7; border-radius:10px 10px 0 0; cursor:pointer;}
+.works_step ul li .one{ background:#e7e7e7 url(https://snagpad.com/img/wstep1.png) no-repeat 0 0;}
+.works_step ul li .two{ background:#e7e7e7 url(https://snagpad.com/img/wstep2.png) no-repeat 0 0;}
+.works_step ul li .three{ background:#e7e7e7 url(https://snagpad.com/img/wstep3.png) no-repeat 0 0;}
+.works_step ul li h4{ font-size:30px; color:#d0d0d0; font-size:30px; line-height:31px; font-family: 'rockwellregular'; border-top:3px solid #e7e7e7; padding:20px 0 4px;}
+.works_step ul li p{ font-size:17px; color:#d0d0d0; line-height:20px; font-family: 'HelveticaRegular';}
+.works_step ul li.active p, .works_step ul li:hover p{ color:#575757;}
+.works_step ul li.active h4, .works_step ul li:hover h4{ color:#ff7e00; border-color:#ff7e00;}
+.works_step ul li.active b, .works_step ul li:hover b{ background-position:bottom; background-color:#ff7e00;}
+/*=================how it work css end here===================*/
+

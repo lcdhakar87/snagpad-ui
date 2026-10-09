@@ -1,0 +1,17 @@
+ <header id="header" class="fixed" >
+    <h1><a routerLink="/home" class="logo"><img src="https://snagpad.com/img/mploy-logo.png" alt="logo" border="0"></a></h1>
+    <nav>
+        <ul>
+            <li  ><a routerLink="/contact-us" >Request Demo</a></li> 
+            <li  class="active"><a routerLink="/job-seeker" >i’m a job seeker</a></li>
+            <li >
+              @if(!this.userLogedIn){ <a (click)="openLoginModal()"  >SIGN IN</a> }
+              @else { 
+                <a (click)="openDashboard()"  >Dashboard</a>
+                <a (click) = "logOut()">Sign Out</a> 
+                }
+            </li>
+
+        </ul>
+    </nav>
+</header>
